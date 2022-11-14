@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula HTML</title>
+</head>
+<body>
+    <h1>Aula HTML</h1>
+    <hr />
+    <br>
+    <h3 id="Index">Index</h3>
+
+    <ul>
+        <li><a href="#Sobre">Sobre o HTML</a></li>
+        <li><a href="#Tags">O que são Tags</a></li>
+        <li><a href="#Exemplos">
+            Exemplos de Tags
+            <ul>
+                <li><a href="#h1">&lt;h1&gt; (tags de título)</a></li>
+                <li><a href="#parágrafo">&lt;p&gt; (parágrafo)</a></li>
+                <li><a href="#destaque">&lt;mark&gt; (destaque)</a></li>
+                <li><a href="#pequeno">&lt;small&gt; (texto menor)</a></li>
+                <li><a href="#italico">&lt;i&gt; (texto italico)</a></li>
+                <li><a href="#sublinhado">&lt;u&gt; (texto sublinhado)</a></li>
+                <li><a href="#forte">&lt;strong&gt; (texto negrito)</a></li>
+                <li><a href="#listaOrdenada">&lt;ol&gt; (lista ordenada)</a></li>
+                <li><a href="#listaDesordenada">&lt;ul&gt; (lista desordenada)</a></li>
+                <li><a href="#elemento">&lt;li&gt; (elemento lista)</a></li>
+                <li><a href="#ancora">&lt;a&gt; (ancora ou link)</a></li>
+                <li><a href="#subscrito">&lt;sub&gt; (texto subscrito)</a></li>
+                <li><a href="#sobrescrito">&lt;sup&gt; (texto sobrescrito)</a></li>
+                <li><a href="#citacaoDeBloco">&lt;blockquote&gt; (citação de bloco)</a></li>
+                <li><a href="#fonte">&lt;font&gt; (fonte)</a></li>
+                <li><a href="#textoExcluido">&lt;del&gt; (texto excluído)</a></li>
+                <li><a href="#abreviacao">&lt;abbr&gt; (abreviação)</a></li>
+            </ul>
+        </a></li>
+    </ul>
+
+    <br>
+    <h3 id="Sobre">Sobre o HTML</h3>
+    <small><a href="#Index">[Voltar]</a></small>
+
+    <p>HTML é uma linguagem de <strong>marcação</strong> ultilizada
+    na construção de páginas na Web criada pelo britâncico Tim Bernes-Lee.
+    Os navegadores (browsers) tem a capacidade de "traduzir" essa linguagem de forma 
+    eficiente. <br><br>Se compararmos páginas Web com os jornais, HTML seria todo
+    conteudo impresso nas folhas, de forma bem enxuta, sem muito design envolvido,
+    pois isso será por parte do CSS, mas isso é assunto para outra aula. <br><br>
+    Ao visitar uma página Web, podemos perceber que existem diferentes distribuições
+    e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento.
+    Essa estrutura é estabelecida través do HTML.No inicio da web, era comum encontrar
+    sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações.
+    Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML.
+    Portanto, podemos considerar o HTML o “esqueleto” da página.</p>
+    
+    <br>
+    <h3 id="Tags">O que são Tags</h3>
+    <small><a href="#Index">[Voltar]</a></small>
+    <p>Foi dito no último tópico, que HTML é uma linguagem de marcação, que estrutura páginas
+    da Web, mas como isso realmente funciona? Essas marcações são as chamadas <strong>"Tags"</strong>. 
+    As Tags são códigos que definem toda a estrutura da página , tais como seu tamanho, fonte da letra, as cores,
+    as quebras de linha, etc. A maioria dos elementos do documento HTML são compostos por uma estrutura de abertura
+    e uma de fachamento.
+
+    A principal característica das tags é estarem sempre dentro dos sinais de chevron (sinal de “maior que” e “menor que”), ou seja: < >.
+    </p>
+
+    <br>
+    <h3 id="Exemplos">Exemplos de Tags</h3>
+    <small><a href="#Index">[Voltar]</a></small>
+    <p>Há muitas tags que podem ser usadas, porém nesse artigo mencionarei apenas alguns exemplos e
+    suas funções.</p>
+
+    <h5 id="h1">&lt;h1&gt; (tags de título)</h5>
+    <p>As tags de título variam entre seis níveis hierárquicos, e para definílos, usamos:</p>
+        
+    <p>
+        &lt;h1&gt;&lt;/h1&gt; - Título de <strong>maior</strong> valor hierárquico.
+        <br>
+        &lt;h2&gt;&lt;/h2&gt;
+        <br>
+        &lt;h3&gt;&lt;/h3&gt;
+        <br>
+        &lt;h4&gt;&lt;/h4&gt;
+        <br>
+        &lt;h5&gt;&lt;/h5&gt;
+        <br>
+        &lt;h6&gt;&lt;/h6&gt; - Título de <strong>menor</strong> valor hierárquico.</p>
+        <p>Os títulos vão criar a primeira estrutura organziacional básica do texto, uma vez que irá diferenciar
+            os tipos de títulos, e separar parágrafos distintos.
+        </p>
+    <br>
+    <h5 id="parágrafo">&lt;p&gt; (parágrafo)</h5>
+    <p>Essa tag é a principal tag de texto, ela irá inciar e terminar uma paragráfo, e é ultilizada da seguinte forma:</p>
+    <p>&lt;p&gt;texto&lt;/p&gt;</p>
+    
+    <br>
+    <h5 id="destaque">&lt;mark&gt; (destaque)</h5>
+    <p>Essa tag cria uma marcação no texto, semelhante a um marca-texto colorido que usamos no papel.
+        Um trecho de destaque em um texto, por exemplo, uma sequência de texto marcado como referência,
+        devido à sua relevância em um contexto particular. Pode ser utilizado em uma página
+        que mostra os resultados de uma busca onde todas as instâncias da palavra pesquisadas receberam destaque.
+    </p>
+    <p>&lt;mark&gt;<mark>texto</mark>&lt;/mark&gt;</p>
+
+    <br>
+    <h5 id="pequeno">&lt;small&gt; (texto menor)</h5>
+    <p>O elemento small agora é empregado para marcar avisos obrigatórios, restrições legais ou restrições de uso
+        de conteúdo como copyrights, ou seja, não é apenas para tornar o tamanho do texto menor, mas na prática
+        deixa o texto menor.</p>
+    <p>&lt;small&gt;<small>texto</small>&lt;/small&gt;</p>
+
+    <br>
+    <h5 id="italico">&lt;i&gt; (texto italico)</h5>
+    <p>Representa uma parte do texto que é destacada do restante por algum motivo, por exemplo, termos técnicos,
+        expressões de outros idiomas ou pensamentos de personagens fictícios. Normalmente, é apresentado com o uso
+        do tipo "itálico".</p>
+        <p>&lt;i&gt;<i>texto</i>&lt;/i&gt;</p>
+
+        <br>
+        <h5 id="sublinhado">&lt;u&gt; (texto sublinhado)</h5>
+        <p>Essa tag seve para sublinhar o texto selecionado.</p>
+        <p>&lt;u&gt;<u>texto</u>&lt;/u&gt;</p>
+
+        <br>
+        <h5 id="forte">&lt;strong&gt; (texto negrito)</h5>
+        <p>O elemento HTML strong dá ao texto uma forte importância,
+            e é tipicamente mostrado em negrito.</p>
+        <p>&lt;strong&gt;<strong>texto</strong>&lt;/strong&gt;</p>
+
+        <br>
+        <h5 id="listaOrdenada">&lt;ol&gt; (lista ordenada)</h5>
+        <p>O Elemento HTML ol (ou Elemento HTML de lista ordenada) representa uma lista de itens ordenados.
+            De forma característica esses itens ordenados em uma lista são mostrados com uma contagem que os precede,
+            que pode ser de qualquer tipo, como numerais, letras, algarismos romanos, ou simples símbolos.</p>
+        <p>&lt;ol&gt;<ol><li>&lt;li&gt;texto&lt;/li&gt;</li><li>&lt;li&gt;texto&lt;/li&gt;</li><li>&lt;li&gt;texto&lt;/li&gt;</li></ol>&lt;/ol&gt;</p>
+
+        <br>
+        <h5 id="listaDesordenada">&lt;ul&gt; (lista desordenada)</h5>
+        <p>O elemento HTML &lt;ul&gt; (ou elemento HTML de Lista desordenada) representa uma lista de itens sem ordem rígida,
+            isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições, nessa lista, são irrelevantes.
+            Caracteristicamente, os itens em uma lista desordenada são exibidos com um marcador que pode ter várias formas, como um
+            ponto, um círculo, ou um quadrado.</p>
+        <p>&lt;ul&gt;<ul><li>&lt;li&gt;texto&lt;/li&gt;</li><li>&lt;li&gt;texto&lt;/li&gt;</li><li>&lt;li&gt;texto&lt;/li&gt;</li></ul>&lt;/ul&gt;</p>
+
+        <br>
+        <h5 id="elemento">&lt;li&gt; (lemento lista)</h5>
+        <p>O elemento HTML &lt;li&gt; (ou a Lista dos Itens de um elemento HTML) é usado para representar um item que faz parte de uma lista.
+            Este item deve estar contido em um elemento pai: uma lista ordenada (&lt;ol&gt;), uma lista desordenada (&lt;ul&gt;) , ou um menu
+                e representa uma única entidade dessa lista. Em menus e listas desordenadas a relação de itens é exibida, normalmente, usando pontos
+                de marcação (as bolinhas). Em listas ordenadas eles são, comumente, mostrados com algum contador ascendente - como um número, ou letra -
+                à sua esquerda.</p>
+                <p>&lt;ul&gt;<ul><li>&lt;li&gt;texto&lt;/li&gt;</li><li>&lt;li&gt;texto&lt;/li&gt;</li><li>&lt;li&gt;texto&lt;/li&gt;</li></ul>&lt;/ul&gt;</p>
+
+        <br>
+        <h5 id="ancora">&lt;a&gt; (ancora ou link)</h5>
+        <p>O elemento &lt;a&gt; em HTML (ou elemento âncora), com o atributo <small>href</small> cria-se um hiperligação nas páginas web, arquivos, endereços de emails,
+            ligações na mesma página ou endereços na URL. O conteúdo dentro de cada &lt;a&gt; precisará indicar o destino do link.</p>
+        <p>&lt;ul&gt;<ul>
+            &lt;li&gt;&lt;a href="https://exemplo.com">Site&lt;/a&gt;&lt;/li&gt;
+            <br>&lt;li&gt;&lt;a href="exemplo@example.com">Email&lt;/a&gt;&lt;/li&gt;
+        </ul>&lt;/ul&gt;
+        </p>
+
+        <br>
+        <h5 id="subscrito">&lt;sub&gt; (texto subscrito)</h5>
+        <p>A tag &lt;sub> é usada para adicionar um texto subscrito ao documento HTML. A tag &lt;sub> define o texto subscrito. O texto subscrito aparece meio caractere
+            abaixo da linha normal e às vezes é renderizado em uma fonte menor. O texto subscrito pode ser usado para fórmulas químicas, como H2O para ser escrito
+            como H<sub>2</sub>O.</p>
+        <p>&lt;sub&gt;<sub>texto</sub>&lt;/sub&gt;</p>
+        
+        <br>
+        <h5 id="sobrescrito">&lt;sup&gt; (texto sobrescrito)</h5>
+        <p>A tag &lt;sup> é usada para adicionar um texto sobrescrito ao documento HTML. A tag &lt;sup> define o texto sobrescrito. O texto sobrescrito aparece meio caractere
+            acima da linha normal e às vezes é renderizado em uma fonte menor. Texto sobrescrito pode ser usado para notas de rodapé.</p>
+        <p>&lt;sup&gt;<sup>texto</sup>&lt;/sup&gt;</p>
+
+        <br>
+        <h5 id="citacaoDeBloco">&lt;blockquote&gt; (citação de bloco)</h5>
+        <p>O Elemento HTML &lt;blockquote> (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação. Normalmente, este é processado
+            visualmente pelo recuo</p>
+        <p>&lt;blockquote&gt;<blockquote>texto</blockquote>&lt;/blockquote&gt;</p>
+
+        <br>
+        <h5 id="fonte">&lt;font&gt; (fonte)</h5>
+        <p>O marcador &lt;font>&lt;/font> "Font Element" ou letras é utilizado para configurar o tipo, cor e tamanho das letras de um texto de uma página HTML.</p>
+        <p>&lt;font face="Verdana,Geneva,Arial"><font face="Verdana,Geneva,Arial">Texto</font>&lt;/font>
+        <br>&lt;font color="Red"></font><font color="Red"> Texto</font>&lt;/font></p>
+
+        <br>
+        <h5 id="textoExcluido">&lt;del&gt; (texto excluído)</h5>
+        <p>O elemento HTML &lt;del> (ou Elemento HTML de Texto Excluído) representa uma parte do texto que foi excluída de um documento. Este elemento é (não necessariamente)
+            renderizado pelos navegadores com uma linha entre o texto.</p>
+        <p>&lt;del&gt;<del>texto</del>&lt;/del&gt;</p>
+
+        <br>
+        <h5 id="abreviacao">&lt;abbr&gt; (abreviação)</h5>
+        <p>O Elemento HTML &lt;abbr> (ou Elemento de Abreviação HTML) representa uma abreviação e opcionalmente fornece uma descrição completa para ela. Se presente,
+            o atributo title deve conter a descrição completa e apenas ela.</p>
+        <p>Obama é presidente dos &lt;abbr title="Estados Unidos da América"></abbr><abbr title="Estados Unidos da América">EUA</abbr>&lt;/abbr></p></p>
+
+
+
+</body>
+</html>
